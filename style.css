@@ -119,7 +119,7 @@ h2 {
 }
 
 .footer {
-  padding: 3rem 0;
+  padding: 1.5rem 0;
 }
 
 .footer .social a {
@@ -153,5 +153,10 @@ h2 {
   .footer .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+  }
+
+  .footer ul {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
